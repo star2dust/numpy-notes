@@ -34,7 +34,7 @@ y = np.clip(x, a_min = 0., a_max = None)
 #########################################################
 # plot
 
-# two subfigures, Sigmoid in the right
+# two subfigures, Sigmoid in the left
 f = plt.subplot(121)
 # plot curve
 plt.plot(x, s, color='r')
@@ -45,7 +45,7 @@ currentAxis=plt.gca()
 currentAxis.xaxis.set_label_text('x', fontsize=15)
 currentAxis.yaxis.set_label_text('y', fontsize=15)
 
-# ReLU in the left
+# ReLU in the right
 f = plt.subplot(122)
 # plot curve
 plt.plot(x, y, color='g')

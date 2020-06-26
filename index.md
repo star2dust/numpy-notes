@@ -4,6 +4,8 @@
 
 ## 写在前面
 
+>  人生苦短，我用python。
+
 为什么使用ndarray：
 
 - 基础数据结构
@@ -199,7 +201,7 @@ y = np.clip(x, a_min = 0., a_max = None)
 #########################################################
 # 以下部分为画图程序
 
-# 设置两个子图窗口，将Sigmoid的函数图像画在右边
+# 设置两个子图窗口，将Sigmoid的函数图像画在左边
 f = plt.subplot(121)
 # 画出函数曲线
 plt.plot(x, s, color='r')
@@ -210,7 +212,7 @@ currentAxis=plt.gca()
 currentAxis.xaxis.set_label_text('x', fontsize=15)
 currentAxis.yaxis.set_label_text('y', fontsize=15)
 
-# 将ReLU的函数图像画在左边
+# 将ReLU的函数图像画在右边
 f = plt.subplot(122)
 # 画出函数曲线
 plt.plot(x, y, color='g')
