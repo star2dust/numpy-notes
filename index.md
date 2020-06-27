@@ -120,9 +120,11 @@ np.random.shuffle(a)
 ```
 ### 3. 随机选取元素（一维）
 ```python
-# 随机选取部分元素
+# 随机选取部分元素（30选5）
 a = np.arange(30)
 b = np.random.choice(a, size=5)
+# 随机选取部分元素（30选1）
+c = np.random.choice(30)
 ```
 
 ## 七、线性代数
